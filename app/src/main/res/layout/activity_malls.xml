@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/theomen"
+    tools:context="com.example.dumisile.tourguide.malls">
+
+    <LinearLayout
+        android:id="@+id/one"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="fitCenter"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            app:srcCompat="@drawable/african" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="20dp"
+            android:textStyle="bold"
+            android:text="Mall of africa is a shopping mall located in Waterfall City, Midrand. It is the largest single phase shopping mall to be built in Africa. The total retail area is 131 000 square metres.
+
+            A WIDE RANGE OF STORES AWAITS YOU! "
+            android:textColor="#DAA520"/>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:background="#DAA520"/>
+
+
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="300dp"
+            android:layout_height="240dp"
+            android:layout_margin="15dp"
+            app:srcCompat="@drawable/malltwo" />
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="240dp"
+            android:layout_margin="15dp"
+            app:srcCompat="@drawable/mallone"
+            android:layout_weight="0.57" />
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="8dp"
+            android:background="#DAA520"/>
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="fitCenter"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            app:srcCompat="@drawable/sandtonlogo" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="20dp"
+            android:textStyle="bold"
+            android:text="Mall of africa is a shopping mall located in Waterfall City, Midrand. It is the largest single phase shopping mall to be built in Africa. The total retail area is 131 000 square metres.
+
+            A WIDE RANGE OF STORES AWAITS YOU! "
+            android:textColor="#DAA520"/>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:background="#DAA520"/>
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

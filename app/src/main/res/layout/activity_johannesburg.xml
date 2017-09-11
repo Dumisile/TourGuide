@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dumisile.tourguide.Johannesburg"
+    android:background="@drawable/theomen">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="FIND YOUR WAY AROUND JOHANNESBURG..."
+        android:textSize="16dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:textColor="#FFA500"
+        android:id="@+id/textView2" />
+
+    <LinearLayout
+        android:id="@+id/johannesburg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_alignEnd="@+id/textView2"
+        android:orientation="vertical">
+
+
+
+
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/maboneng"
+        android:layout_centerInParent="true"
+        />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/family"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/johannesburg"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Johannesburg is the largest city in South Africa and is one of the 50 largest urban areas in the world. It is the wealthiest province in South Africa, it is located in the mineral-rich Witwatersrand range hills and is the centre of large-scale gold and diamond trade. "
+            android:textColor="#FFA500"
+            android:textSize="16dp"
+            android:layout_alignTop="@+id/johannesburg"
+            android:layout_above="@+id/btnkids" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/Btnmoment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="45dp"
+        android:background="#FFA500"
+        android:drawableTop="@drawable/ic_explore_black_24dp"
+        android:text="COLLECT THE MOMENTS" />
+
+
+</RelativeLayout>
